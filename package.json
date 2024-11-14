@@ -1,0 +1,15 @@
+{
+  "name": "simple-reddit",
+  "version": "1.0.0",
+ "scripts": {
+  "start": "npm run server && npm run client",
+  "server": "cd backend && node server.js",
+  "client": "cd frontend && npm start"
+}
+,
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.0"
+  }
+}
